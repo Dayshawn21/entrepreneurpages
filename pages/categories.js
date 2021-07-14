@@ -1,6 +1,6 @@
 import React from "react";
 import { API_URL } from "../ulits/url";
-import CategoriesCard from "../componets/CategoriesCard";
+import CategoriesCard from "../components/CategoriesCard";
 
 const CategoriesPages = ({ categories }) => {
   return (
