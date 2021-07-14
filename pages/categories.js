@@ -6,8 +6,8 @@ const CategoriesPages = ({ categories }) => {
   return (
     <section>
       <div className="container py-10">
-        <h1 className="text-center text-4xl "> Categories </h1>
-        <div className="sm: pt-10 md:grid md:grid-cols-3  md:gap-4 pt-6">
+        <h1 className="text-center text-4xl pb-3 "> Categories </h1>
+        <div className="grid md:grid-cols-4 gap-4">
           {categories &&
             categories.map((category) => (
               <CategoriesCard category={category} />
