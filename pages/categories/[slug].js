@@ -1,6 +1,6 @@
 import React from "react";
 import { API_URL } from "../../ulits/url";
-import BusinessCard from "../../componets/BusinessCard";
+import BusinessCard from "../../components/BusinessCard";
 
 const Category = ({ category }) => {
   console.log(category);
