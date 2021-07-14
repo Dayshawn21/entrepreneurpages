@@ -39,7 +39,7 @@ const BusinessCard = ({ business }) => {
             <div class="text-center my-3">
               <a
                 class="text-s text-indigo-500 italic hover:underline hover:text-indigo-600 font-medium"
-                href="#"
+                href={business.link}
               >
                 View Business
               </a>

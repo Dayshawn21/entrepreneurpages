@@ -7,7 +7,7 @@ const BusinessPages = ({ businesses }) => {
     <section>
       <div className="container py-10">
         <h1 className="text-center text-4xl pb-4 "> Businesses </h1>
-        <div className="grid md:grid-cols-4 gap-2">
+        <div className="grid  md:grid-cols-4 gap-2">
           {businesses &&
             businesses.map((business) => <BusinessCard business={business} />)}
         </div>
