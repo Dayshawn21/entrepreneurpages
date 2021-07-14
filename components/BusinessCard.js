@@ -5,7 +5,7 @@ const BusinessCard = ({ business }) => {
   <Image src={business.logo.formats.thumbnail.url} width={200} height={200} />;
   return (
     <div>
-      <div class="max-w-xs">
+      <div>
         <div class="bg-white shadow-xl border-black border-2	 rounded-lg py-3">
           <div class="photo-wrapper text-center p-2">
             <Image

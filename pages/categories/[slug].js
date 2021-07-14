@@ -3,7 +3,6 @@ import { API_URL } from "../../ulits/url";
 import BusinessCard from "../../components/BusinessCard";
 
 const Category = ({ category }) => {
-  console.log(category);
   return (
     <div className="container pt-6">
       <h1 className="text-center text-6xl ">{category.name}</h1>

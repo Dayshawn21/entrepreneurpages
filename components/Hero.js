@@ -12,7 +12,7 @@ const Hero = () => {
       </div>
       <div>
         <Image
-          src="/img/4380.jpg"
+          src="/img/business.jpg"
           alt="Picture of the author"
           width={500}
           height={400}

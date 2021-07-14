@@ -6,8 +6,8 @@ const BusinessPages = ({ businesses }) => {
   return (
     <section>
       <div className="container py-10">
-        <h1 className="text-center text-4xl "> Businesses </h1>
-        <div className="sm: pt-10 md:grid md:grid-cols-4  md:gap-2 py-6">
+        <h1 className="text-center text-4xl pb-4 "> Businesses </h1>
+        <div className="grid md:grid-cols-4 gap-2">
           {businesses &&
             businesses.map((business) => <BusinessCard business={business} />)}
         </div>
