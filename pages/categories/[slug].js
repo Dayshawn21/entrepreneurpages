@@ -25,6 +25,7 @@ export const getStaticProps = async ({ params: { slug } }) => {
   return {
     props: {
       category: found[0],
+      revalidate: 100,
     },
   };
 };
