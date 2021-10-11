@@ -2,16 +2,15 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 const BusinessCard = ({ business }) => {
-  <Image src={business.logo.formats.thumbnail.url} width={200} height={200} />;
   return (
     <div>
       <div>
         <div class="bg-white shadow-xl border-black border-2	 rounded-lg py-3">
-          <div class="photo-wrapper text-center p-2">
+          <div class="h-64 w-auto relative  p-2">
             <Image
               src={business.logo.formats.thumbnail.url}
-              width={250}
-              height={200}
+              layout="fill"
+              objectFit="contain"
             />
           </div>
           <div class="p-2">
